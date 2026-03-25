@@ -1,0 +1,15 @@
+<script>
+    function my(){
+    var obj='{"name":"NAS","Subject":"FSD2","Exam":"2026-01-15"}'
+    var d1=JSON.parse(obj)
+    console.log(d1)
+    document.getElementById("a").innerHTML=d1.name;
+    document.getElementById("b").innerHTML=new Date(d1.Exam)
+    }
+</script>
+<body>
+    <button onclick="my()">Click here</button>
+    <h3 id="a"></h3>
+    <p id="b"></p>
+
+</body>
