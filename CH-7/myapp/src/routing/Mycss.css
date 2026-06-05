@@ -1,0 +1,11 @@
+
+.temp{
+    height:500px;
+    width:100%;
+    background-image:url("favicon.svg");
+    background-size:cover
+}
+.head1{
+    color:aquamarine;
+    font-size: 60px;
+}
